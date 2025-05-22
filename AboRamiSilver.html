@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="https://archive.is/7ZaO5/0cf7581a2a65e6968719ebb2aba4d4cc19dc7385.png" />
+  <link rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/css?family=monospace" rel="stylesheet">
+  <meta name="Author" content="lxrdk1773n">
+  <meta name="copyright" content="lxrdk1773n">
+  <meta name="description" content="Hacked by Test" />
+  <meta http-equiv="cache-control" content="index,cache">
+  <meta http-equiv="pragma" content="index,cache">
+  <title>الـشـيـوخ</title>
+  <meta charset="UTF-8" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      font-family: 'monospace';
+    }
+    .bg-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      color: white;
+    }
+    h1, p, font, marquee, #clock {
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    }
+    a:link {
+      text-decoration: none;
+    }
+ 
+</style>
+</head>
+<script>
+  function playSound() {
+    var audio = document.querySelector("audio");
+    audio.play();
+  }
+
+  document.addEventListener('DOMContentLoaded', fetchIP);
+</script>
+<body onclick="playSound()" onmouseover="playSound()">
+  <video class="bg-video" autoplay loop muted>
+    <source src="https://cdn.discordapp.com/attachments/1188147690207453294/1369965182746497084/videoplayback.mp4?ex=68303c00&is=682eea80&hm=e79a4d01432acbbd6eec9bedf5274df94b246a60a4390219d8c1ad6c72afb6da&" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <audio src="https://cdn.discordapp.com/attachments/1188147690207453294/1375181475258830939/c67bb961b42c55ff.mp3?ex=6830c10d&is=682f6f8d&hm=cb9aac15bd2446f44b7b791ddda7382c90ed5ef69f7ede67cf35b7099761e3ce&" autoplay loop></audio>
+  <div class="content">
+    <center>
+      <img border="" src="https://cdn.discordapp.com/attachments/1188147690207453294/1369965902719750154/35f89eab509b697ce7007c4c64ed2035.gif?ex=68303cab&is=682eeb2b&hm=1796451f2b26a2cce3e1ef80800948e1028dba60441177e0678c67d32b3e0f53&" width="230" height="230" style="border-radius: 25%;">
+      <h1 class="ip-display"><font color="#91a6ff" size="5px">Abo Rami  is in your Server</font></h1>
+      <p class="ip-display"><b><font color="#c9cdd2" size="6px"></font></b></p>
+      <font class="ip-display" color="#040404" size="4px"><span style="text-shadow: 0px 0px 2px;"><font color="#ff0000" size="5px">Discord.gg/3mkk</font><font color="#040404" size="5px"></font></span></font>
+      <br>
+      <font class="ip-display" color="#c9cdd2" size="4px">
+        &#12300; <marquee scrollamount="15" width="215" behavior="left">
+               
+          <font color="#ff0000"><span style="text-shadow: 0px 0px 3px;">Abo Rami Team   </font>   <font color="#ffadad"><span style="text-shadow: 0px 0px 3px;"></font> 
+        </marquee> &#12301;
+      </font>
+      <br>
+      <font class="ip-display" color="#ffadad" size="3px"></font>
+      <br>
+      <div class="ip-display" id="clock"></div>
+      <div id="ip-address" style="color:#ffcccc; margin-top: 20px;"></div>
+      <script type="text/javascript">
+        function showTime() {
+          var a_p = "";
+          var today = new Date();
+          var curr_hour = today.getHours();
+          var curr_minute = today.getMinutes();
+          var curr_second = today.getSeconds();
+          if (curr_hour < 12) {
+            a_p = "AM";
+          } else {
+            a_p = "PM";
+          }
+          if (curr_hour == 0) {
+            curr_hour = 12;
+          } if (curr_hour > 12) {
+            curr_hour = curr_hour - 12;
+          }
+          curr_hour = checkTime(curr_hour);
+          curr_minute = checkTime(curr_minute);
+          curr_second = checkTime(curr_second);
+          document.getElementById('clock').innerHTML = curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+        }
+       
+  <!-- As you know, security vulnerabilities have been detected on your site. Additionally, your server has been compromised using a security vulnerability. We would like to point out that none of your files have been intervened in the current situation. Our goal is not to deface your site, but on the contrary, to help you detect and close security vulnerabilities. Therefore, we strongly recommend that you review your site's security status and close any detected vulnerabilities. -->
+</body>
+</html>
